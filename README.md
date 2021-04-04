@@ -2,7 +2,7 @@
 
 Emulates the Christmas Lights
 
-<img src="./docs/lights.gif" width="160" height="160">
+<img src="./docs/lights.gif">
 
 ## Features
 
