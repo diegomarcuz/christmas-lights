@@ -30,13 +30,13 @@ li {
         }
 
         &__animation--green70{
-            animation: green70 1s infinite;
+            animation: glowGreen70 1s infinite;
         }
         &__animation--yellow30{
-            animation: yellow30 1s infinite;
+            animation: glowYellow30 1s infinite;
         }
         &__animation--blue60{
-            animation: blue60 2s infinite;
+            animation: glowBlue60 2s infinite;
         }
 
         &::before{
@@ -62,7 +62,7 @@ li {
     margin:$spacing-06;
 }
 
-@keyframes green70{
+@keyframes glowGreen70{
     0%{
         box-shadow: 0px 0px 30px 5px rgb(14, 96, 39); 
        
@@ -79,7 +79,7 @@ li {
     }
     
 }
-@keyframes yellow30{
+@keyframes glowYellow30{
     0%, 100%{
         box-shadow: none;
       
@@ -91,7 +91,7 @@ li {
     }
     
 }
-@keyframes blue60{
+@keyframes glowBlue60{
     
     20%{
         box-shadow: 0px 0px 30px 5px rgb(15, 98, 254); 
