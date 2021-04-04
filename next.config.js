@@ -1,6 +1,6 @@
 
 module.exports = {
-    basePath: "diegomarcuz.github.io/christmas-lights",
+    basePath: "/diegomarcuz.github.io/christmas-lights",
     assetPrefix: '.',
     distDir: 'build',
     sassOptions: {
