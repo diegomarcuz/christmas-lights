@@ -1,0 +1,112 @@
+@import 'carbon-components/scss/components/toggle/toggle';
+@import 'carbon-components/scss/components/number-input/number-input';
+
+
+main{
+    height: 100vh;
+}
+ul{
+    justify-content: center;
+}
+li {
+    height: 150px;
+    .lights{
+        position: relative;
+        display: block;
+        height: 50%;
+        width: 50%;
+        background-color: rgb(86, 50, 96);
+        border-radius: 50%;
+        margin-top:$spacing-05;
+        border: 1px solid transparent; 
+        &--green70{
+            background-color: rgb(14, 96, 39);
+        }
+        &--blue60{
+            background-color: rgb(15, 98, 254);
+        }
+        &--yellow30{
+            background-color:#f1c21b;
+        }
+
+        &__animation--green70{
+            animation: green70 1s infinite;
+        }
+        &__animation--yellow30{
+            animation: yellow30 1s infinite;
+        }
+        &__animation--blue60{
+            animation: blue60 2s infinite;
+        }
+
+        &::before{
+            content: "";
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            background:rgba(0,0,0,0.8);
+            right: 50%;
+            transform: translateX(50%);
+            top: -30%;
+            z-index: -1;
+
+        }
+
+        
+    }
+   
+}
+
+
+
+
+.actions{
+    display: flex;
+    justify-content: space-between;
+    margin:$spacing-06;
+}
+
+@keyframes green70{
+    0%{
+        box-shadow: 0px 0px 30px 5px rgb(14, 96, 39); 
+       
+       
+    }
+   
+    50%{
+        box-shadow: none;
+
+    }
+    100%{
+        box-shadow:  0px 0px 30px 5px rgb(14, 96, 39);
+        
+    }
+    
+}
+@keyframes yellow30{
+    0%, 100%{
+        box-shadow: none;
+      
+    }
+    
+   
+    50%{
+        box-shadow: 0px 0px 30px 5px #f1c21b; 
+    }
+    
+}
+@keyframes blue60{
+    
+    20%{
+        box-shadow: 0px 0px 30px 5px rgb(15, 98, 254); 
+    }
+   
+    60%{
+        box-shadow: none ;
+    }
+    90%{
+        box-shadow: 0px 0px 30px 5px rgb(15, 98, 254); 
+
+    }
+    
+}
