@@ -6,7 +6,6 @@
   "repository": {
     "url": "https://github.com/diegomarcuz/christmas-lights"
   },
-  "homepage": "https://pages.github.com/diegomarcuz/christmas-lights",
   "version": "0.1.0",
   "private": true,
   "scripts": {
