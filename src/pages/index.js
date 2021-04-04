@@ -101,10 +101,3 @@ export default function Home() {
     </>
   )
 }
-// {`lights ${isLightsOn && "lights__animation--blue80"}`}
-// {`lights ${isLightsOn && "lights__animation--blue30"}`}
-// {`lights  ${isLightsOn && "lights__animation--blue80"}`
-// {`lights ${isLightsOn && "lights__animation--blue60"}`}
-// {`lights ${isLightsOn && "lights__animation--blue30"}`}
-// {`lights ${isLightsOn && "lights__animation--blue60"}`}
-// {`lights  ${isLightsOn && "lights__animation--blue80"}`
