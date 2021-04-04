@@ -4,6 +4,10 @@ Emulates the Christmas Lights
 
 <img src="./docs/lights.gif">
 
+## Purpose
+
+I would give a try on [Carbon Design System](https://www.carbondesignsystem.com/) initial set up as well as [NextJS Static HTML Export](https://nextjs.org/docs/advanced-features/static-html-export)
+
 ## Features
 
 - ON/OFF ability (light will be turned on or turned off)
